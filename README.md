@@ -13,7 +13,7 @@ As of 2021, there were four ESP indicators calculated from SST stored in AKFIN.
 
  Code for the original indicators calculated by Jordan Watson can be found at https://github.com/jordanwatson/ESP_Indicators"
  
- We replicate these calculations in the esp_indicator.sql file
+ We replicate these calculations in the esp_indicator_automation.sql file
 
 
 
