@@ -80,7 +80,7 @@ order by c.year desc
 ;
 
 
---SEBS spring
+--Spring_Temperature_Surface_SEBS_Satellite
 select extract(year from read_date) indictator_year, round(avg(temp),2) as mean_sst
 from afsc.erddap_crw_sst a
 inner join afsc.erddap_crw_sst_spatial_lookup b
@@ -117,7 +117,7 @@ on c.year=d.year
 order by c.year desc
 ;
 
---SEBS spring summer
+--Spring_Summer_Temperature_Surface_SEBS_Satellite
 select extract(year from read_date) indictator_year, round(avg(temp),2) as mean_sst
 from afsc.erddap_crw_sst a
 inner join afsc.erddap_crw_sst_spatial_lookup b
